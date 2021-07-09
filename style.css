@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgba(236, 103, 55, 0.726);
+    background-image: url(bg-remove.png);
+    background-repeat: repeat-x; 
+    height: 90px;
+    background-position: center ;
+
+
+   
+   
+}  
+.abbu{
+ 
+    margin:0 60%;
+    margin-bottom:-30px;
+    position: fixed;
+    height: 48%;
+    width: 100%;
+    display: inline;
+    /* transform: scale(1.1); */
+    /* background-color: white; */
+
+   
+}
+.half-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.cake{
+    width: 60%;
+    height: 290px;
+    /* float: center; */
+    margin: 70px 0px 0px 190px;
+    padding-bottom: 100px;
+    position:relative;
+    transform: scale(0.5);
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.cake h1{
+    text-shadow:1px 3px rgb(224, 72, 17);
+    font-size: 40px;
+   margin-right: 30%;
+   display: inline-block;
+   position: relative;
+   background-color: ;
+   padding-right:180px; 
+}
+footer h5{
+    background-color: rgba(233, 111, 67, 0.911);
+    
+}
+
+footer h3{
+    color: white;
+    text-shadow: 1px 1px rgb(179, 20, 20);
+}
+footer h4{
+    background-color: rgb(233, 99, 50);
+}
+section{
+    margin: -150px 370px 70px 230px;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 1px 1px white;
+}
+section h2{
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    animation: animate 1.4s ease-in-out infinite alternate-reverse;
+    font-family: arial;
+}
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:  #f3a081;
+        
+        text-shadow: 1px 2px 12px rgb(129, 46, 16);
+    }
+    18%,18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #FAF4EE ;
+        text-shadow: 5px 6px 19px 60px #E96332,
+        0 0 20px #E96332,
+        0 0 40px #E96332,
+        0 0 80px #E96332,
+        0 0 160px #E96332,
+    }
+}
+footer p{
+    background-image: url(bg-remove.png);
+    height: 70px;
+    width: 100%;
+}
+/* audio{
+    visibility: hidden;
+} */
+
+
